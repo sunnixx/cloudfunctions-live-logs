@@ -12,7 +12,7 @@ If we could get the logs live on our terminal from the GCP logs would be great. 
 So this took me like 1 / 2 hours and 1 cup of coffee to make. Please feel free to add more to it and make this a better package.
 
 ## How to Install
-Just clone the repo and do node index.js you can specific the specific function as well like node index.js --only foo and it will show you live logs of foo() function on GCP.
+Just clone the repo and do `node index.js` you can specific the specific function as well like `node index.js --only foo` and it will show you live logs of foo() function on GCP.
 
 *Caution* 
 This would fetch logs of functions that are uploaded to your GCP and not the ones that are locally created.
